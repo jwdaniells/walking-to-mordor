@@ -111,13 +111,53 @@
     },
     {
       "id": 10,
+      "name": "Chetwood exit / Midgewater Marshes entry",
+      "dateInStory": "2 Oct",
+      "dayMiles": 30,
+      "cumulativeMiles": 122,
+      "confidence": "estimated-from-map-scale",
+      "note": "Covers 30 Sept and 1 Oct combined: departed Bree, looped through the Chetwood (a longer path than straight-line due to the loop shape). Distance derived from the Chetwood/Weathertop map's own coordinate grid and printed mile scale, NOT transcribed from prose text, since Strachey's own day-count narrative is internally inconsistent here (see note on id 14). Needs verification against the physical map's scale bar with a ruler.",
+      "sourceSection": "§11 Bree to Weathertop (map-derived, not text-derived)"
+    },
+    {
+      "id": 11,
+      "name": "Midgewater Marshes, night 2",
+      "dateInStory": "3 Oct",
+      "dayMiles": 15,
+      "cumulativeMiles": 137,
+      "confidence": "estimated-from-map-scale",
+      "note": "Relatively straight stretch through the marshes per the map's route line.",
+      "sourceSection": "§11 Bree to Weathertop (map-derived, not text-derived)"
+    },
+    {
+      "id": 12,
+      "name": "Midgewater Marshes, night 3",
+      "dateInStory": "4 Oct",
+      "dayMiles": 15,
+      "cumulativeMiles": 152,
+      "confidence": "estimated-from-map-scale",
+      "note": "Continuing east through the marshes, still avoiding the impassable ground further south.",
+      "sourceSection": "§11 Bree to Weathertop (map-derived, not text-derived)"
+    },
+    {
+      "id": 13,
+      "name": "Approach to the Weather Hills",
+      "dateInStory": "5 Oct",
+      "dayMiles": 15,
+      "cumulativeMiles": 167,
+      "confidence": "estimated-from-map-scale",
+      "note": "Route bends north on the map here, closing in on Weathertop.",
+      "sourceSection": "§11 Bree to Weathertop (map-derived, not text-derived)"
+    },
+    {
+      "id": 14,
       "name": "Weathertop (attacked)",
       "dateInStory": "6 Oct",
-      "dayMiles": null,
-      "cumulativeMiles": null,
-      "confidence": "unresolved",
-      "note": "Strachey explicitly flags a discrepancy in the source text here: Aragorn's statement that Weathertop is 'halfway' to Rivendell doesn't reconcile cleanly with the stated 14-day Bree-to-Ford journey (normally ~12 days), implying either a longer route or a slip in the original text. Left unresolved rather than papered over with a false-precise number. Company left Bree 30 Sept, looped south of the Chetwood/Midgewater Marshes to avoid difficult ground, reaching Weathertop the evening of 6 Oct.",
-      "sourceSection": "§11 Bree to Weathertop"
+      "dayMiles": 20,
+      "cumulativeMiles": 187,
+      "confidence": "estimated-from-map-scale",
+      "note": "Strachey explicitly flags a discrepancy in the source text here: Aragorn's statement that Weathertop is 'halfway' to Rivendell doesn't reconcile cleanly with the stated 14-day Bree-to-Ford journey (normally ~12 days), implying either a longer route or a slip in the original text. Rather than resolve that prose contradiction, this and the four preceding waypoints (ids 10-13) were derived instead from the Chetwood/Weathertop map's own printed grid and mile scale, giving an independent ~95-mile Bree-to-Weathertop total. This was estimated from the map's visual proportions as shared in conversation, not a precise pixel/ruler measurement, so treat as provisional pending direct verification against the physical map.",
+      "sourceSection": "§11 Bree to Weathertop (map-derived, not text-derived)"
     }
   ]
 }
