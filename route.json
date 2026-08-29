@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "routeTitle": "Walking to Mordor — Frodo & Sam's Route (Ring-bearer only)",
+    "totalRouteMiles": 1779,
+    "primarySource": "Barbara Strachey, Journeys of Frodo",
+    "secondarySource": "Karen Wynn Fonstad, Atlas of Middle-earth",
+    "status": "draft-v1",
+    "coverage": "Hobbiton to Weathertop only. Later legs (Weathertop to Rivendell onward) not yet transcribed.",
+    "notes": "Cumulative mileages are best estimates reconstructed from Strachey's day-by-day commentary, which itself is often approximate ('some miles', 'a mile or two') since Tolkien's original text rarely gives exact distances. Where Strachey flags her own uncertainty or an internal discrepancy in the source text, that is preserved in the 'confidence' and 'note' fields rather than smoothed over. This file should be checked against the physical book before being treated as final."
+  },
+  "waypoints": [
+    {
+      "id": 0,
+      "name": "Hobbiton (Bag End)",
+      "dateInStory": "22 Sept",
+      "dayMiles": 0,
+      "cumulativeMiles": 0,
+      "confidence": "high",
+      "note": "Starting point. Journey begins the evening of 23 Sept.",
+      "sourceSection": "§1 Hobbiton to Brandywine Bridge"
+    },
+    {
+      "id": 1,
+      "name": "Birch grove camp, Green Hill Country",
+      "dateInStory": "23 Sept",
+      "dayMiles": 14.5,
+      "cumulativeMiles": 14.5,
+      "confidence": "medium",
+      "note": "Left Hobbiton soon after sunset (~7pm), walked 'for about three hours' before making camp under birches. Strachey reckons 14-15 miles that first evening; midpoint used.",
+      "sourceSection": "§3 Green Hill Country"
+    },
+    {
+      "id": 2,
+      "name": "Greensward above Stockbrook, Woody End",
+      "dateInStory": "24 Sept",
+      "dayMiles": 21,
+      "cumulativeMiles": 35.5,
+      "confidence": "medium",
+      "note": "A long, strenuous day delayed by hiding from the Black Rider. Strachey estimates 'more than 20 miles in all'; 21 used as a conservative round figure. Camp was on a steep bluff overlooking the Stockbrook.",
+      "sourceSection": "§4 Woody End"
+    },
+    {
+      "id": 3,
+      "name": "The Ferry (River Baranduin crossing)",
+      "dateInStory": "25 Sept",
+      "dayMiles": 18,
+      "cumulativeMiles": 53.5,
+      "confidence": "low",
+      "note": "Frodo cut cross-country toward the Ferry, a point Strachey places 18 miles south-east of the Shire in a straight line (more precisely ESE). This is a straight-line figure, not the actual walked path length via Maggot's Farm, so the true distance covered was almost certainly higher. Flagged for correction once transcribed from the book directly.",
+      "sourceSection": "§5 Maggot's Farm; §6 Brandywine Bridge to Bree"
+    },
+    {
+      "id": 4,
+      "name": "Crickhollow",
+      "dateInStory": "25 Sept",
+      "dayMiles": 1,
+      "cumulativeMiles": 54.5,
+      "confidence": "medium",
+      "note": "After crossing the Ferry: passed Buck Hill and Brandy Hall, went north about half a mile along the main road, then turned off through a hedge-gate to Crickhollow. Short final leg of the day.",
+      "sourceSection": "§7 Bucklebury and the Hedge"
+    },
+    {
+      "id": 5,
+      "name": "Tunnel Gate (edge of the Old Forest)",
+      "dateInStory": "26 Sept",
+      "dayMiles": 4.5,
+      "cumulativeMiles": 59,
+      "confidence": "medium",
+      "note": "Morning ride from Crickhollow through the spinney and along the Hedge to the Tunnel Gate — 'about an hour' at a slow pace, reckoned as 4-5 miles.",
+      "sourceSection": "§7 Bucklebury and the Hedge"
+    },
+    {
+      "id": 6,
+      "name": "Tom Bombadil's House",
+      "dateInStory": "26 Sept",
+      "dayMiles": 25,
+      "cumulativeMiles": 84,
+      "confidence": "low",
+      "note": "Through the Old Forest, misled by its influence, drifting south and east down to the Withywindle before reaching the house. On foot hobbits can't exceed ~24 miles/day; on ponies they should have managed 30-35, but forest difficulties likely limited them to ~25. Strachey's own figure is approximate.",
+      "sourceSection": "§8 The Old Forest"
+    },
+    {
+      "id": 7,
+      "name": "Barrow (captured by Barrow-wight)",
+      "dateInStory": "28 Sept",
+      "dayMiles": 0,
+      "cumulativeMiles": 84,
+      "confidence": "low",
+      "note": "27 Sept was a rest day at Bombadil's house (not counted as travel). On 28 Sept the party wandered lost in fog on the Barrow-downs, net forward progress is effectively unclear/circular — no net mileage assigned pending closer transcription.",
+      "sourceSection": "§9 The Barrow-downs"
+    },
+    {
+      "id": 8,
+      "name": "Road at the northern gap, en route to Bree",
+      "dateInStory": "29 Sept",
+      "dayMiles": 4,
+      "cumulativeMiles": 88,
+      "confidence": "medium",
+      "note": "Tom Bombadil led them from the Barrow rescue west then north to the northern gap and onto the road. Strachey states they were 'about four miles from Bree' at the point they parted from Tom.",
+      "sourceSection": "§9 The Barrow-downs; §10 Bree"
+    },
+    {
+      "id": 9,
+      "name": "Bree (The Prancing Pony)",
+      "dateInStory": "29 Sept",
+      "dayMiles": 4,
+      "cumulativeMiles": 92,
+      "confidence": "medium",
+      "note": "Arrived at dusk. This closes out the Shire-to-Bree leg.",
+      "sourceSection": "§10 Bree"
+    },
+    {
+      "id": 10,
+      "name": "Weathertop (attacked)",
+      "dateInStory": "6 Oct",
+      "dayMiles": null,
+      "cumulativeMiles": null,
+      "confidence": "unresolved",
+      "note": "Strachey explicitly flags a discrepancy in the source text here: Aragorn's statement that Weathertop is 'halfway' to Rivendell doesn't reconcile cleanly with the stated 14-day Bree-to-Ford journey (normally ~12 days), implying either a longer route or a slip in the original text. Left unresolved rather than papered over with a false-precise number. Company left Bree 30 Sept, looped south of the Chetwood/Midgewater Marshes to avoid difficult ground, reaching Weathertop the evening of 6 Oct.",
+      "sourceSection": "§11 Bree to Weathertop"
+    }
+  ]
+}
